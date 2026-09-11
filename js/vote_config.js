@@ -1,6 +1,4 @@
 window.VOTE_CONFIG = {
-  // Keep empty for the bundled local server. Set this to the deployed Worker URL
-  // (for example, https://shanghai-cluster-votes.example.workers.dev) for GitHub Pages.
-  apiBaseUrl: ''
+  // Shared anonymous aggregate vote service used by GitHub Pages.
+  apiBaseUrl: 'https://shanghai-collage-cluster-votes.ssee6416.chatgpt.site'
 };
-

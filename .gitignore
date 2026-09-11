@@ -4,3 +4,5 @@ js/mapbox_config.private.js
 worker/.wrangler/
 worker/node_modules/
 worker/.dev.vars
+node_modules/
+dist/

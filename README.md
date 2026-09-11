@@ -37,14 +37,10 @@ The voting system stores only aggregate counts for each scale and cluster. It do
 
 The 235 responses collected before publication are preserved as aggregate totals in `data/votes.json` and `data/vote_totals_seed.json`. The original row-level file is kept only as the local, Git-ignored `data/votes.private.json` and must never be uploaded.
 
-Local mode uses `start_map.bat` and the aggregate JSON store. Public mode uses the API URL in `js/vote_config.js` and the Cloudflare Worker + D1 implementation under `worker/`. The D1 database contains one aggregate row per scale/cluster and therefore cannot expose or reconstruct an individual visitor's response.
+Local mode uses `start_map.bat` and the aggregate JSON store. Public mode uses the API URL in `js/vote_config.js` and the Sites D1 implementation built from `worker/src/index.js`. The D1 database contains one aggregate row per scale/cluster and therefore cannot expose or reconstruct an individual visitor's response.
 
 ## GitHub Pages and vote API deployment
 
-The included GitHub Actions workflow publishes the repository root to GitHub Pages whenever `main` is updated. Before public voting is enabled:
+The included GitHub Actions workflow publishes the repository root to GitHub Pages whenever `main` is updated. The shared vote API is deployed separately with Sites and D1; `js/vote_config.js` already points to it. The schema source is `db/schema.ts`, generated migrations are in `drizzle/`, and `npm run build` packages the server entrypoint plus the anonymous 235-vote aggregate seed. The seed endpoint inserts those totals only when the database is empty.
 
-1. Create the D1 database named `shanghai-collage-city-cluster-votes`.
-2. Replace the placeholder database ID in `worker/wrangler.jsonc`.
-3. Apply `worker/schema.sql`, then `worker/seed.sql` once to import the existing aggregate totals.
-4. Deploy the Worker and place its HTTPS URL in `js/vote_config.js`.
-5. Push the updated configuration. The Pages site will then read and update the shared aggregate totals through the Worker.
+The alternative standalone Cloudflare Worker configuration remains under `worker/` for maintainers who prefer to deploy directly with Wrangler.

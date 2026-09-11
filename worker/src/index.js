@@ -1,11 +1,17 @@
 const familiarityValues = ['unfamiliar', 'somewhat_familiar', 'very_familiar'];
 const boundaryValues = ['disagree', 'somewhat_agree', 'strongly_agree'];
+const seedVoteTotals = '__VOTE_SEED_DATA__';
+const defaultAllowedOrigins = new Set([
+  'https://albushhy.github.io',
+  'http://127.0.0.1:8000',
+  'http://localhost:8000'
+]);
 
 function allowedOrigin(request, env) {
   const origin = request.headers.get('Origin');
   if (!origin) return '*';
-  const allowed = String(env.ALLOWED_ORIGINS || '').split(',').map(value => value.trim()).filter(Boolean);
-  return allowed.includes(origin) ? origin : null;
+  const configured = String(env.ALLOWED_ORIGINS || '').split(',').map(value => value.trim()).filter(Boolean);
+  return defaultAllowedOrigins.has(origin) || configured.includes(origin) ? origin : null;
 }
 
 function headers(origin, contentType = 'application/json; charset=utf-8') {
@@ -114,6 +120,31 @@ async function exportCsv(env, origin) {
   return new Response('\ufeff' + rows.map(row => row.map(csvCell).join(',')).join('\r\n'), { status: 200, headers: headers(origin, 'text/csv; charset=utf-8') });
 }
 
+async function seedAnonymousTotals(env, origin) {
+  if (!Array.isArray(seedVoteTotals)) return json({ error: 'Seed data is unavailable.' }, 503, origin);
+  const existing = await env.DB.prepare('SELECT COUNT(*) AS count FROM cluster_vote_totals').first();
+  if (Number(existing?.count || 0) > 0) {
+    return json({ ok: true, seeded: false, reason: 'Database already contains aggregate totals.' }, 200, origin);
+  }
+
+  const statements = seedVoteTotals.map(row => env.DB.prepare(`
+    INSERT INTO cluster_vote_totals (
+      scale, community_id, community_size,
+      familiarity_unfamiliar, familiarity_moderate, familiarity_very,
+      boundary_no_match, boundary_moderate_match, boundary_strong_match,
+      total_votes, updated_at
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `).bind(
+    Number(row.scale), String(row.community_id), Number(row.community_size),
+    Number(row.familiarity.unfamiliar), Number(row.familiarity.somewhat_familiar), Number(row.familiarity.very_familiar),
+    Number(row.boundary_match.no_match), Number(row.boundary_match.moderate_match), Number(row.boundary_match.strong_match),
+    Number(row.total_votes), String(row.last_updated)
+  ));
+  await env.DB.batch(statements);
+  const verification = await env.DB.prepare('SELECT COUNT(*) AS clusters, SUM(total_votes) AS total_votes FROM cluster_vote_totals').first();
+  return json({ ok: true, seeded: true, clusters: Number(verification?.clusters || 0), total_votes: Number(verification?.total_votes || 0) }, 200, origin);
+}
+
 export default {
   async fetch(request, env) {
     const origin = allowedOrigin(request, env);
@@ -128,7 +159,7 @@ export default {
       return json({ totals: await totals(env.DB, scale, communityId) }, 200, origin);
     }
     if (request.method === 'GET' && url.pathname === '/api/votes/export.csv') return exportCsv(env, origin);
+    if (request.method === 'POST' && url.pathname === '/api/votes/seed-anonymous-totals') return seedAnonymousTotals(env, origin);
     return json({ error: 'Not found.' }, 404, origin);
   }
 };
-
