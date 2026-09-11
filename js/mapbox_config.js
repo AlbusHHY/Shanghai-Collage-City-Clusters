@@ -1,4 +1,5 @@
 window.MAPBOX_CONFIG = {
+  // GitHub Actions enables Mapbox and injects the public token at deploy time.
   enabled: false,
   accessToken: '',
   style: 'mapbox://styles/mapbox/standard',
@@ -14,4 +15,3 @@ window.MAPBOX_CONFIG = {
   showPointOfInterestLabels: false,
   showTransitLabels: false
 };
-
