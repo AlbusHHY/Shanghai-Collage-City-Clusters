@@ -1,0 +1,140 @@
+{
+  "feature_count": 347282,
+  "geometry_type": "Polygon",
+  "source_crs": "WGS 84 (EPSG:4326)",
+  "height_field": "Height",
+  "height_min": 3.0,
+  "height_max": 492.0,
+  "height_mean": 19.6660770802268,
+  "missing_height_count": 0,
+  "height_classes": [
+    {
+      "label": "≤ 12 m",
+      "min": null,
+      "max": 12,
+      "count": 127566,
+      "color": "#dadada"
+    },
+    {
+      "label": "> 12–24 m",
+      "min": 12,
+      "max": 24,
+      "count": 148448,
+      "color": "#b1b1b1"
+    },
+    {
+      "label": "> 24–50 m",
+      "min": 24,
+      "max": 50,
+      "count": 51643,
+      "color": "#808080"
+    },
+    {
+      "label": "> 50–100 m",
+      "min": 50,
+      "max": 100,
+      "count": 18826,
+      "color": "#525252"
+    },
+    {
+      "label": "> 100 m",
+      "min": 100,
+      "max": null,
+      "count": 799,
+      "color": "#262626"
+    }
+  ],
+  "bounds_epsg4326": [
+    121.34385434159935,
+    31.12109300307918,
+    121.64259139980024,
+    31.37813373374427
+  ],
+  "rendering": "Local transparent XYZ raster tiles",
+  "native_zoom_range": [
+    11,
+    15
+  ],
+  "zooms": [
+    {
+      "zoom": 11,
+      "x_range": [
+        1714,
+        1716
+      ],
+      "y_range": [
+        835,
+        837
+      ],
+      "canvas": [
+        768,
+        768
+      ],
+      "nonempty_tiles": 7
+    },
+    {
+      "zoom": 12,
+      "x_range": [
+        3428,
+        3432
+      ],
+      "y_range": [
+        1671,
+        1675
+      ],
+      "canvas": [
+        1280,
+        1280
+      ],
+      "nonempty_tiles": 17
+    },
+    {
+      "zoom": 13,
+      "x_range": [
+        6857,
+        6864
+      ],
+      "y_range": [
+        3343,
+        3350
+      ],
+      "canvas": [
+        2048,
+        2048
+      ],
+      "nonempty_tiles": 51
+    },
+    {
+      "zoom": 14,
+      "x_range": [
+        13714,
+        13728
+      ],
+      "y_range": [
+        6686,
+        6700
+      ],
+      "canvas": [
+        3840,
+        3840
+      ],
+      "nonempty_tiles": 178
+    },
+    {
+      "zoom": 15,
+      "x_range": [
+        27428,
+        27456
+      ],
+      "y_range": [
+        13373,
+        13400
+      ],
+      "canvas": [
+        7424,
+        7168
+      ],
+      "nonempty_tiles": 652
+    }
+  ]
+}

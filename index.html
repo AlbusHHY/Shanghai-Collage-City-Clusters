@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Multi-scale Urban Form Clusters</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://api.mapbox.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhJAUqD7z0ijMZBPeuQOq1pUENs=" crossorigin="">
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.30.0/mapbox-gl.css">
+  <link rel="stylesheet" href="css/leaflet-core-fallback.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/buildings.css">
+  <link rel="stylesheet" href="css/cluster-boundaries.css">
+  <link rel="stylesheet" href="css/legend-layout.css">
+  <link rel="stylesheet" href="css/voting.css">
+  <link rel="stylesheet" href="css/interactions.css">
+  <style>.gradient{background:linear-gradient(90deg,#fff,#fff5be,#ffd55e,#f59d31,#e06919)}.singleton-note{display:flex;align-items:center;gap:8px;margin-top:9px;color:#536270;font-size:10px}.singleton-swatch{background:transparent;border:1px dashed #8d969d}</style>
+</head>
+<body>
+  <main id="map" aria-label="Interactive map of urban form clusters in Shanghai Inner Ring"></main>
+  <header class="title-card">
+    <h1>Multi-scale Urban Form Clusters</h1>
+    <p>Shanghai</p>
+  </header>
+  <section class="control-card" aria-label="Map controls">
+    <div class="control-group">
+      <div class="control-label">Spatial Scale</div>
+      <div class="segmented scale-buttons" role="group" aria-label="Spatial Scale">
+        <button class="active" data-scale="1" data-scale-name="Large-scale" data-connectivity="Poor-connected clusters" data-mean-size="71.75" aria-pressed="true">Scale 1</button><button data-scale="2" data-scale-name="Middle-scale" data-connectivity="General-connected clusters" data-mean-size="47.26" aria-pressed="false">Scale 2</button><button data-scale="3" data-scale-name="Middle-scale" data-connectivity="Closely-connected clusters" data-mean-size="32.54" aria-pressed="false">Scale 3</button><button data-scale="4" data-scale-name="Small-scale" data-connectivity="General-connected clusters" data-mean-size="19.89" aria-pressed="false">Scale 4</button><button data-scale="5" data-scale-name="Small-scale" data-connectivity="Tight-connected clusters" data-mean-size="6.03" aria-pressed="false">Scale 5</button>
+      </div>
+      <p id="scale-description" class="scale-description" aria-live="polite">Large-scale · Poor-connected clusters · Mean size: 71.75 blocks</p>
+    </div>
+    <div class="control-group">
+      <div class="control-label">Visualization</div>
+      <div class="segmented mode-buttons" role="group" aria-label="Visualization">
+        <button class="active" data-mode="clusters" aria-pressed="true">Urban Form Clusters</button><button data-mode="entropy" aria-pressed="false">Cluster Mixing</button>
+      </div>
+    </div>
+    <div class="control-group building-control">
+      <div class="control-label">Building Layers</div>
+      <div class="building-toggle-grid" role="group" aria-label="Building layers">
+        <button id="building-2d-toggle" class="layer-toggle" aria-pressed="false"><span class="toggle-dot"></span> 2D Buildings Hidden</button>
+        <button id="building-3d-toggle" class="layer-toggle" aria-pressed="false"><span class="toggle-dot"></span> 3D Buildings Hidden</button>
+      </div>
+    </div>
+  </section>
+  <aside id="legend" class="legend-card" aria-live="polite"></aside>
+  <aside id="building-legend" class="legend-card building-legend-card" aria-live="polite"></aside>
+  <aside id="vote-panel" class="vote-panel" aria-label="Participatory cluster rating" hidden>
+    <div class="vote-header"><div><p class="vote-eyebrow">Participatory benchmark</p><h2 class="vote-title">Rate this cluster</h2></div><button id="vote-close" class="vote-close" type="button" aria-label="Close rating panel">×</button></div>
+    <div class="vote-community"><strong id="vote-community-name"></strong><span id="vote-community-meta"></span></div>
+    <div class="vote-question"><label for="familiarity-rating">How familiar does this cluster feel?</label><div id="familiarity-value" class="vote-value">Moderately familiar</div><input id="familiarity-rating" class="vote-range" type="range" min="0" max="2" step="1" value="1"><div class="vote-range-labels"><span>Unfamiliar</span><span>Moderately familiar</span><span>Very familiar</span></div></div>
+    <div class="vote-question"><label for="agreement-rating">How well does this cluster boundary match your understanding?</label><div id="agreement-value" class="vote-value">Moderate match</div><input id="agreement-rating" class="vote-range" type="range" min="0" max="2" step="1" value="1"><div class="vote-range-labels"><span>No match</span><span>Moderate match</span><span>Strong match</span></div></div>
+    <div class="vote-actions"><button id="vote-submit" class="vote-submit" type="button">Submit vote</button><button id="vote-export" class="vote-export" type="button">Export summary CSV</button></div>
+    <p id="vote-message" class="vote-message" aria-live="polite"></p>
+    <section class="vote-stats" aria-label="Current vote chart"><h3>Current vote</h3><div class="vote-chart"><div class="vote-chart-group"><div class="vote-chart-title">Familiarity</div><div class="vote-bar-row"><span>Unfamiliar</span><i class="vote-bar-track"><b id="bar-familiarity-low"></b></i><output id="stat-familiarity-low">0</output></div><div class="vote-bar-row"><span>Moderately familiar</span><i class="vote-bar-track"><b id="bar-familiarity-mid"></b></i><output id="stat-familiarity-mid">0</output></div><div class="vote-bar-row"><span>Very familiar</span><i class="vote-bar-track"><b id="bar-familiarity-high"></b></i><output id="stat-familiarity-high">0</output></div></div><div class="vote-chart-group"><div class="vote-chart-title">Boundary match</div><div class="vote-bar-row"><span>No match</span><i class="vote-bar-track"><b id="bar-agreement-low"></b></i><output id="stat-agreement-low">0</output></div><div class="vote-bar-row"><span>Moderate match</span><i class="vote-bar-track"><b id="bar-agreement-mid"></b></i><output id="stat-agreement-mid">0</output></div><div class="vote-bar-row"><span>Strong match</span><i class="vote-bar-track"><b id="bar-agreement-high"></b></i><output id="stat-agreement-high">0</output></div></div></div><p class="vote-total">Total responses: <b id="stat-total">0</b></p></section>
+    <p class="vote-help">Only anonymous aggregate counts are stored—no visitor ID, IP address, or individual ballot is retained. During this page visit, re-submitting for the same cluster updates your response; reopening or reloading starts a new response.</p>
+  </aside>
+  <div id="status" class="status-chip">Scale 1 · Urban Form Clusters</div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.vectorgrid@1.3.0/dist/Leaflet.VectorGrid.bundled.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/cluster_boundaries.js"></script>
+  <script src="js/singleton_communities.js"></script>
+  <script src="js/community_memberships.js"></script>
+  <script src="js/mapbox_config.js"></script>
+  <script src="js/vote_config.js"></script>
+  <script src="js/scale_ui.js"></script>
+  <script src="js/voting.js"></script>
+  <script src="js/map_loader.js"></script>
+</body>
+</html>

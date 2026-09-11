@@ -1,0 +1,49 @@
+{
+  "format": "Mapbox Vector Tile 2.1",
+  "layer_name": "buildings",
+  "extent": 4096,
+  "source_feature_count": 347282,
+  "height_property": "height_class",
+  "native_zoom_range": [
+    11,
+    16
+  ],
+  "zooms": [
+    {
+      "zoom": 11,
+      "tile_count": 7,
+      "bytes": 10811140,
+      "feature_tile_references": 347724
+    },
+    {
+      "zoom": 12,
+      "tile_count": 17,
+      "bytes": 11057489,
+      "feature_tile_references": 349276
+    },
+    {
+      "zoom": 13,
+      "tile_count": 51,
+      "bytes": 11176472,
+      "feature_tile_references": 351328
+    },
+    {
+      "zoom": 14,
+      "tile_count": 178,
+      "bytes": 11477994,
+      "feature_tile_references": 355645
+    },
+    {
+      "zoom": 15,
+      "tile_count": 652,
+      "bytes": 12130252,
+      "feature_tile_references": 364154
+    },
+    {
+      "zoom": 16,
+      "tile_count": 2503,
+      "bytes": 13658833,
+      "feature_tile_references": 381631
+    }
+  ]
+}

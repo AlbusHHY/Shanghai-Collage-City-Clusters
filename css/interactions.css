@@ -1,0 +1,135 @@
+.leaflet-container {
+  cursor: grab;
+}
+
+.leaflet-container .leaflet-interactive {
+  cursor: pointer;
+}
+
+.leaflet-container.middle-dragging,
+.leaflet-container.middle-dragging .leaflet-interactive {
+  cursor: grabbing !important;
+}
+
+.leaflet-tooltip.cluster-info-tooltip {
+  pointer-events: none;
+}
+
+.vote-panel {
+  width: 380px;
+  padding: 18px;
+}
+
+.vote-title {
+  font-size: 18px;
+}
+
+.vote-question label,
+.vote-value {
+  font-size: 13px;
+}
+
+.vote-range-labels,
+.vote-stats-grid,
+.vote-total {
+  font-size: 10.5px;
+}
+
+@media (max-width: 760px) {
+  .vote-panel {
+    width: auto;
+    padding: 14px;
+  }
+}
+
+.mapboxgl-map,
+.mapboxgl-canvas {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+.mapboxgl-canvas {
+  cursor: grab;
+}
+
+.mapboxgl-canvas.parcel-hover {
+  cursor: pointer;
+}
+
+#map.mapbox-middle-dragging .mapboxgl-canvas {
+  cursor: grabbing !important;
+}
+
+.mapboxgl-popup.cluster-info-popup {
+  pointer-events: none;
+}
+
+.mapboxgl-popup.cluster-info-popup .mapboxgl-popup-content {
+  min-width: 226px;
+  padding: 9px 11px;
+  border: 0;
+  border-radius: 7px;
+  color: #24333e;
+  box-shadow: 0 4px 16px rgba(25, 47, 61, .2);
+}
+
+.mapboxgl-popup.cluster-info-popup .mapboxgl-popup-tip {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.building-toggle-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.building-toggle-grid .layer-toggle {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.layer-toggle:disabled {
+  cursor: not-allowed;
+  opacity: .55;
+}
+
+.scale-description {
+  margin: 7px 2px 0;
+  color: #667681;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.gradient-levels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  color: #344956;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.gradient-levels span:nth-child(2) {
+  text-align: center;
+}
+
+.gradient-levels span:last-child {
+  text-align: right;
+}
+
+.mixing-note {
+  margin-top: 7px;
+  color: #6d7981;
+  font-size: 10px;
+  line-height: 1.35;
+}
+
+@media (max-width: 480px) {
+  .building-toggle-grid {
+    gap: 6px;
+  }
+
+  .building-toggle-grid .layer-toggle {
+    font-size: 9px;
+  }
+}

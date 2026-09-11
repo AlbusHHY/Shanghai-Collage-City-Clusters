@@ -1,0 +1,6 @@
+data/votes.private.json
+js/mapbox_config.private.js
+.wrangler/
+worker/.wrangler/
+worker/node_modules/
+worker/.dev.vars

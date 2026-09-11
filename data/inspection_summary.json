@@ -1,0 +1,275 @@
+{
+  "feature_count": 5956,
+  "source_record_count": 5956,
+  "geometry_type": "Polygon / MultiPolygon",
+  "source_crs": "WGS 1984 Web Mercator Auxiliary Sphere (EPSG:3857)",
+  "output_crs": "WGS 84 (EPSG:4326)",
+  "source_bounds_epsg3857": [
+    13507923.480700001,
+    3648435.224299997,
+    13541207.209700001,
+    3681981.7793000014
+  ],
+  "output_bounds_epsg4326": [
+    121.3437412,
+    31.1207073,
+    121.642734,
+    31.3783392
+  ],
+  "source_fields": [
+    {
+      "name": "PLOT_ID",
+      "type": "N",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "编码1",
+      "type": "F",
+      "length": 19,
+      "decimal": 11
+    },
+    {
+      "name": "一级分",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "编码2",
+      "type": "F",
+      "length": 19,
+      "decimal": 11
+    },
+    {
+      "name": "二级分",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "community_",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "community1",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "communit_1",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "communit_2",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "communit_3",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "H_shannon",
+      "type": "F",
+      "length": 19,
+      "decimal": 11
+    },
+    {
+      "name": "H_shanno_1",
+      "type": "F",
+      "length": 19,
+      "decimal": 11
+    },
+    {
+      "name": "H_shanno_2",
+      "type": "F",
+      "length": 19,
+      "decimal": 11
+    },
+    {
+      "name": "H_shanno_3",
+      "type": "F",
+      "length": 19,
+      "decimal": 11
+    },
+    {
+      "name": "H_shanno_4",
+      "type": "F",
+      "length": 19,
+      "decimal": 11
+    }
+  ],
+  "confirmed_cluster_fields": [
+    "community_",
+    "community1",
+    "communit_1",
+    "communit_2",
+    "communit_3"
+  ],
+  "confirmed_entropy_fields": [
+    "H_shannon",
+    "H_shanno_1",
+    "H_shanno_2",
+    "H_shanno_3",
+    "H_shanno_4"
+  ],
+  "field_mapping": [
+    {
+      "scale": "Scale 1",
+      "cluster_source": "community_",
+      "cluster_export": "cluster_scale_1",
+      "entropy_source": "H_shannon",
+      "entropy_export": "entropy_scale_1"
+    },
+    {
+      "scale": "Scale 2",
+      "cluster_source": "community1",
+      "cluster_export": "cluster_scale_2",
+      "entropy_source": "H_shanno_1",
+      "entropy_export": "entropy_scale_2"
+    },
+    {
+      "scale": "Scale 3",
+      "cluster_source": "communit_1",
+      "cluster_export": "cluster_scale_3",
+      "entropy_source": "H_shanno_2",
+      "entropy_export": "entropy_scale_3"
+    },
+    {
+      "scale": "Scale 4",
+      "cluster_source": "communit_2",
+      "cluster_export": "cluster_scale_4",
+      "entropy_source": "H_shanno_3",
+      "entropy_export": "entropy_scale_4"
+    },
+    {
+      "scale": "Scale 5",
+      "cluster_source": "communit_3",
+      "cluster_export": "cluster_scale_5",
+      "entropy_source": "H_shanno_4",
+      "entropy_export": "entropy_scale_5"
+    }
+  ],
+  "unique_cluster_ids": {
+    "scale_1": [
+      "CT1",
+      "CT2",
+      "CT3",
+      "CT4",
+      "CT5",
+      "CT6",
+      "CT7",
+      "CT8",
+      "CT_EMPTY"
+    ],
+    "scale_2": [
+      "CT1",
+      "CT2",
+      "CT3",
+      "CT4",
+      "CT5",
+      "CT6",
+      "CT7",
+      "CT8",
+      "CT9",
+      "CT_EMPTY"
+    ],
+    "scale_3": [
+      "CT1",
+      "CT2",
+      "CT3",
+      "CT4",
+      "CT5",
+      "CT6",
+      "CT7",
+      "CT8",
+      "CT_EMPTY"
+    ],
+    "scale_4": [
+      "CT1",
+      "CT2",
+      "CT3",
+      "CT4",
+      "CT5",
+      "CT6",
+      "CT7",
+      "CT_EMPTY"
+    ],
+    "scale_5": [
+      "CT1",
+      "CT10",
+      "CT2",
+      "CT3",
+      "CT4",
+      "CT5",
+      "CT6",
+      "CT7",
+      "CT8",
+      "CT9",
+      "CT_EMPTY"
+    ]
+  },
+  "entropy_statistics": {
+    "scale_1": {
+      "min": 0.0,
+      "max": 2.05744789306,
+      "mean": 1.7125601686412797,
+      "missing": 0,
+      "count": 5956
+    },
+    "scale_2": {
+      "min": 0.0,
+      "max": 2.05514350645,
+      "mean": 1.6323918300584546,
+      "missing": 0,
+      "count": 5956
+    },
+    "scale_3": {
+      "min": 0.0,
+      "max": 2.00475452334,
+      "mean": 1.5352201182273701,
+      "missing": 0,
+      "count": 5956
+    },
+    "scale_4": {
+      "min": 0.0,
+      "max": 2.03703484934,
+      "mean": 1.3895678967435332,
+      "missing": 0,
+      "count": 5956
+    },
+    "scale_5": {
+      "min": 0.0,
+      "max": 1.94846297289,
+      "mean": 1.011962641357374,
+      "missing": 0,
+      "count": 5956
+    }
+  },
+  "missing_value_counts": {
+    "community_": 0,
+    "community1": 0,
+    "communit_1": 0,
+    "communit_2": 0,
+    "communit_3": 0,
+    "H_shannon": 0,
+    "H_shanno_1": 0,
+    "H_shanno_2": 0,
+    "H_shanno_3": 0,
+    "H_shanno_4": 0
+  },
+  "rings_closed_during_export": 0,
+  "geometry_simplification": {
+    "applied": false,
+    "tolerance": null
+  }
+}

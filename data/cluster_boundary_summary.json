@@ -1,0 +1,67 @@
+{
+  "scale_1": {
+    "source": "S1_BOUNDARY.shp",
+    "feature_count": 85,
+    "source_crs": "EPSG:3857",
+    "output_crs": "EPSG:4326",
+    "bounds": [
+      121.3437412,
+      31.1207073,
+      121.642734,
+      31.3783392
+    ],
+    "rings_closed_during_export": 0
+  },
+  "scale_2": {
+    "source": "S2_BOUNDARY.shp",
+    "feature_count": 130,
+    "source_crs": "EPSG:3857",
+    "output_crs": "EPSG:4326",
+    "bounds": [
+      121.3437412,
+      31.1207073,
+      121.642734,
+      31.3783392
+    ],
+    "rings_closed_during_export": 0
+  },
+  "scale_3": {
+    "source": "S3_BOUNDARY.shp",
+    "feature_count": 192,
+    "source_crs": "EPSG:3857",
+    "output_crs": "EPSG:4326",
+    "bounds": [
+      121.3437412,
+      31.1207073,
+      121.642734,
+      31.3783392
+    ],
+    "rings_closed_during_export": 0
+  },
+  "scale_4": {
+    "source": "S4_BOUNDARY.shp",
+    "feature_count": 344,
+    "source_crs": "EPSG:3857",
+    "output_crs": "EPSG:4326",
+    "bounds": [
+      121.3437412,
+      31.1207073,
+      121.642734,
+      31.3783392
+    ],
+    "rings_closed_during_export": 0
+  },
+  "scale_5": {
+    "source": "S5_BOUNDARY.shp",
+    "feature_count": 1126,
+    "source_crs": "EPSG:3857",
+    "output_crs": "EPSG:4326",
+    "bounds": [
+      121.3437412,
+      31.1207073,
+      121.642734,
+      31.3783392
+    ],
+    "rings_closed_during_export": 0
+  }
+}

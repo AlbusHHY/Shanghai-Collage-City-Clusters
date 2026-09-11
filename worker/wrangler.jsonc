@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "shanghai-collage-city-cluster-votes",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "vars": {
+    "ALLOWED_ORIGINS": "https://albushhy.github.io,http://127.0.0.1:8000,http://localhost:8000"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "shanghai-collage-city-cluster-votes",
+      "database_id": "REPLACE_AFTER_D1_CREATION"
+    }
+  ]
+}
+

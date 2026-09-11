@@ -1,0 +1,2080 @@
+{
+  "version": 2,
+  "storage": "anonymous_aggregate_only",
+  "clusters": [
+    {
+      "scale": 1,
+      "community_id": "S1-C0014",
+      "community_size": 62,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:33:31"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0021",
+      "community_size": 98,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 3,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 1
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:11:19"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0022",
+      "community_size": 90,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 3
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 2
+      },
+      "total_votes": 4,
+      "last_updated": "09/11/2026 03:25:42"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0032",
+      "community_size": 88,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:11:01"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0033",
+      "community_size": 63,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 2
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:11:15"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0037",
+      "community_size": 74,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 1,
+        "moderate_match": 0,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:33:05"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0038",
+      "community_size": 97,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:11:11"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0046",
+      "community_size": 81,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 8
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 5,
+        "strong_match": 3
+      },
+      "total_votes": 8,
+      "last_updated": "09/11/2026 03:25:09"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0047",
+      "community_size": 33,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:10:37"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0048",
+      "community_size": 56,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 6
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 5
+      },
+      "total_votes": 6,
+      "last_updated": "09/11/2026 09:33:10"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0049",
+      "community_size": 89,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:10:56"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0062",
+      "community_size": 64,
+      "familiarity": {
+        "unfamiliar": 1,
+        "somewhat_familiar": 0,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:10:44"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0066",
+      "community_size": 80,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 06:57:44"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0079",
+      "community_size": 106,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 1,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:33:20"
+    },
+    {
+      "scale": 1,
+      "community_id": "S1-C0083",
+      "community_size": 65,
+      "familiarity": {
+        "unfamiliar": 1,
+        "somewhat_familiar": 0,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 03:25:30"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0024",
+      "community_size": 49,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 06:59:17"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0035",
+      "community_size": 70,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 3
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 3
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:11:27"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0041",
+      "community_size": 53,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 06:59:29"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0056",
+      "community_size": 35,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:12:52"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0059",
+      "community_size": 52,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:12:57"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0060",
+      "community_size": 47,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:11:37"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0065",
+      "community_size": 40,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 03:19:11"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0068",
+      "community_size": 44,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 03:19:02"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0077",
+      "community_size": 56,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 3
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 3
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:11:47"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0083",
+      "community_size": 59,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 03:19:06"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0085",
+      "community_size": 56,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:11:43"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0102",
+      "community_size": 68,
+      "familiarity": {
+        "unfamiliar": 1,
+        "somewhat_familiar": 0,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:00:30"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0109",
+      "community_size": 30,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:11:53"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0111",
+      "community_size": 67,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:19:50"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0112",
+      "community_size": 77,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 1,
+        "moderate_match": 0,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:00:43"
+    },
+    {
+      "scale": 2,
+      "community_id": "S2-C0121",
+      "community_size": 60,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:19:54"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0030",
+      "community_size": 49,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:26:50"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0035",
+      "community_size": 20,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:27:19"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0046",
+      "community_size": 44,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:10:04"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0050",
+      "community_size": 35,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 7
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 6
+      },
+      "total_votes": 7,
+      "last_updated": "09/11/2026 09:26:33"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0057",
+      "community_size": 33,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 5
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 4
+      },
+      "total_votes": 5,
+      "last_updated": "09/11/2026 09:26:41"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0069",
+      "community_size": 42,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 2
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:26:39"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0082",
+      "community_size": 30,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:13:15"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0084",
+      "community_size": 44,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:25:42"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0085",
+      "community_size": 38,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 3
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:19:02"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0087",
+      "community_size": 36,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 7
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 7
+      },
+      "total_votes": 8,
+      "last_updated": "09/11/2026 09:25:33"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0097",
+      "community_size": 43,
+      "familiarity": {
+        "unfamiliar": 1,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:26:05"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0098",
+      "community_size": 40,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:24:42"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0103",
+      "community_size": 30,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:19:34"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0104",
+      "community_size": 32,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:24:46"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0106",
+      "community_size": 37,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 03:18:51"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0107",
+      "community_size": 40,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:25:24"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0109",
+      "community_size": 55,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 7
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 6
+      },
+      "total_votes": 7,
+      "last_updated": "09/11/2026 09:25:19"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0112",
+      "community_size": 36,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 9
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 9
+      },
+      "total_votes": 9,
+      "last_updated": "09/11/2026 09:25:12"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0124",
+      "community_size": 40,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 03:18:42"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0127",
+      "community_size": 48,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:25:28"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0137",
+      "community_size": 32,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:11:07"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0141",
+      "community_size": 57,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:10:39"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0145",
+      "community_size": 34,
+      "familiarity": {
+        "unfamiliar": 1,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:11:03"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0169",
+      "community_size": 41,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 03:16:26"
+    },
+    {
+      "scale": 3,
+      "community_id": "S3-C0181",
+      "community_size": 53,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:11:13"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0043",
+      "community_size": 33,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:27:02"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0044",
+      "community_size": 33,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 1
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:21:08"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0046",
+      "community_size": 25,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:27:09"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0065",
+      "community_size": 42,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:18:12"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0073",
+      "community_size": 18,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:03:37"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0076",
+      "community_size": 37,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 3
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 3
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:20:34"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0083",
+      "community_size": 20,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:18:26"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0085",
+      "community_size": 38,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:04:01"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0102",
+      "community_size": 24,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:20:41"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0114",
+      "community_size": 34,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 1,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:22:24"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0131",
+      "community_size": 35,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 2
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 03:26:31"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0132",
+      "community_size": 25,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:02:41"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0144",
+      "community_size": 19,
+      "familiarity": {
+        "unfamiliar": 1,
+        "somewhat_familiar": 0,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 03:26:26"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0145",
+      "community_size": 14,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:20:54"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0147",
+      "community_size": 39,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:03:15"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0154",
+      "community_size": 15,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:02:38"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0161",
+      "community_size": 27,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:21:31"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0167",
+      "community_size": 26,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:11:56"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0175",
+      "community_size": 44,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:02:55"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0176",
+      "community_size": 18,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:11:53"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0185",
+      "community_size": 24,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 3
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 3,
+        "strong_match": 0
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:21:38"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0189",
+      "community_size": 30,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 3
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:20:23"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0196",
+      "community_size": 24,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:02:33"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0200",
+      "community_size": 17,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:11:38"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0204",
+      "community_size": 27,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:11:41"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0208",
+      "community_size": 21,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:22:23"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0211",
+      "community_size": 6,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 1
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:22:20"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0219",
+      "community_size": 35,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 03:26:39"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0225",
+      "community_size": 29,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:11:46"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0239",
+      "community_size": 30,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 1,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:22:08"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0243",
+      "community_size": 41,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:22:03"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0252",
+      "community_size": 27,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:04:15"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0254",
+      "community_size": 28,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:21:55"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0258",
+      "community_size": 49,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 1,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:21:48"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0292",
+      "community_size": 23,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:11:21"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0297",
+      "community_size": 33,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:05:13"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0298",
+      "community_size": 30,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:18:04"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0308",
+      "community_size": 27,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:21:46"
+    },
+    {
+      "scale": 4,
+      "community_id": "S4-C0309",
+      "community_size": 25,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:18:02"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0157",
+      "community_size": 10,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:08:02"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0238",
+      "community_size": 4,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:22:36"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0250",
+      "community_size": 22,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:26:24"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0428",
+      "community_size": 34,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 2,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 03:19:36"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0437",
+      "community_size": 25,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 03:19:33"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0445",
+      "community_size": 9,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 12:46:58"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0468",
+      "community_size": 26,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:26:13"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0489",
+      "community_size": 4,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:26:17"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0497",
+      "community_size": 15,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 03:19:44"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0499",
+      "community_size": 15,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:06:02"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0520",
+      "community_size": 18,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:06:37"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0535",
+      "community_size": 18,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:06:06"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0540",
+      "community_size": 11,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:22:58"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0577",
+      "community_size": 24,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:06:10"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0602",
+      "community_size": 21,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 1
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:22:54"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0652",
+      "community_size": 15,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:06:41"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0671",
+      "community_size": 23,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:24:08"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0684",
+      "community_size": 12,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:24:17"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0706",
+      "community_size": 20,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/11/2026 09:24:02"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0760",
+      "community_size": 32,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 2
+      },
+      "boundary_match": {
+        "no_match": 1,
+        "moderate_match": 1,
+        "strong_match": 0
+      },
+      "total_votes": 2,
+      "last_updated": "09/11/2026 09:23:54"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0861",
+      "community_size": 13,
+      "familiarity": {
+        "unfamiliar": 1,
+        "somewhat_familiar": 0,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 12:47:30"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0943",
+      "community_size": 2,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 12:47:49"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0946",
+      "community_size": 17,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 07:07:01"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0956",
+      "community_size": 1,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 0
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 12:47:43"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0969",
+      "community_size": 21,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 1,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 2
+      },
+      "total_votes": 2,
+      "last_updated": "09/10/2026 12:48:10"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0971",
+      "community_size": 25,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 2,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 1,
+        "strong_match": 2
+      },
+      "total_votes": 3,
+      "last_updated": "09/11/2026 09:23:45"
+    },
+    {
+      "scale": 5,
+      "community_id": "S5-C0986",
+      "community_size": 18,
+      "familiarity": {
+        "unfamiliar": 0,
+        "somewhat_familiar": 0,
+        "very_familiar": 1
+      },
+      "boundary_match": {
+        "no_match": 0,
+        "moderate_match": 0,
+        "strong_match": 1
+      },
+      "total_votes": 1,
+      "last_updated": "09/10/2026 07:08:15"
+    }
+  ]
+}
