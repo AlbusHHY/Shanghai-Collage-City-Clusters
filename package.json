@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-sites-api.mjs",
-    "db:generate": "drizzle-kit generate --config=drizzle.config.ts"
+    "db:generate": "drizzle-kit generate --config=drizzle.config.ts",
+    "votes:import": "node scripts/import_vote_totals_csv.mjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2"

@@ -3,6 +3,7 @@ const boundaryValues = ['disagree', 'somewhat_agree', 'strongly_agree'];
 const seedVoteTotals = '__VOTE_SEED_DATA__';
 const defaultAllowedOrigins = new Set([
   'https://albushhy.github.io',
+  'https://cudlab.github.io',
   'http://127.0.0.1:8000',
   'http://localhost:8000'
 ]);
